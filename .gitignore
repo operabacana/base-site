@@ -168,3 +168,4 @@ pip-log.txt
 */logs/!index.html
 */cache/*
 */cache/!index.html
+application/configs/config.php
