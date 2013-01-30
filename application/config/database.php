@@ -41,10 +41,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
+$db['default']['hostname'] = '192.168.0.50:3306';
+$db['default']['username'] = 'opera';
 $db['default']['password'] = '';
-$db['default']['database'] = '';
+$db['default']['database'] = 'base_site';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
