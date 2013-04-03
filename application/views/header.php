@@ -2,13 +2,8 @@
 <html class="no-js" lang="pt-br">
 <?php $cssPaths = $this -> lang -> line( 'css_file' ); ?>
 <head>
-<<<<<<< HEAD
-  <title><?php if($this -> uri -> segment(1) != ""){ echo ucfirst(str_replace("_", " ", $this -> uri -> segment(1)))." | ".$this -> config -> item('title_site'); }else{ echo "Transportadora e Logística | Transportadora Time Express"; } ?></title>
-  <meta http-equiv="X-UA-Compatible" content="IE=9,chrome=1">
-=======
   <title><?php if($this -> uri -> segment(1) != ""){ echo ucfirst(str_replace("_", " ", $this -> uri -> segment(1)))." | ".$this -> config -> item('title_site'); }else{ echo " site | site"; } ?></title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
->>>>>>> d8c79fcb34f5fa790f726f5e959be051d4d6146d
   <meta name="viewport" content="width=device-width">
   <meta name="robots" content="index,follow" />
   <meta name="googlebot" content="index,follow" />
@@ -23,15 +18,13 @@
   <!--[if lt IE 7]> <![endif]-->
   <!--[if IE 7]><?php echo link_tag( $cssPaths['ie'] ); ?><![endif]-->
   <!--[if IE 8]><?php echo link_tag( $cssPaths['ie'] ); ?><![endif]-->
-<<<<<<< HEAD
-  <script src="js/modernizr-2.5.3.min.js"></script>
-</head>
-=======
+
   <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
       <script>window.html5 || document.write('<script src="js/html5shiv.js"><\/script>')</script>
   <![endif]-->
-  <script src="js/modernizr-2.6.2.min.js"></script></head>
+  <script src="js/modernizr-2.6.2.min.js"></script>
 
->>>>>>> d8c79fcb34f5fa790f726f5e959be051d4d6146d
+</head>
+
 <body>
